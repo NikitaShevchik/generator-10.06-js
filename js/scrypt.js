@@ -131,3 +131,14 @@ const people = [
 
 
 /*---------------*/
+const amount = people
+    .filter(person => person.budget > 10000)
+    .map(person => {
+        return {
+            info: `${person.name} богатое гавно`,
+            budget: person.budget
+        }
+    })
+    .reduce((total, person) => total + person.budget, 0)
+
+console.log(amount)
