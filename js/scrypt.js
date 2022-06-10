@@ -104,10 +104,30 @@ const people = [
 // console.log(alc)
 
 
+
+
 // Reduce
+
+// let sumBudg = 0
+// for (let i = 0; i < people.length; i++) {
+//     sumBudg += people[i].budget
+// }
+// let sumBudg = people.reduce((total, person) => total + person.budget, 0)
+// console.log(sumBudg)
 
 
 
 // Find
+// const igor = people.find(person => person.name == 'Олег')
+// console.log(igor)
+
+
+
 
 // FindIndex
+// const igorIndex = people.findIndex(person => person.name == 'Олег')
+// console.log(igorIndex)
+
+
+
+/*---------------*/
