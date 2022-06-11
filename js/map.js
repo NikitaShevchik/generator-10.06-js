@@ -69,4 +69,4 @@ function lastVisit(user) {
     return visits.get(user)
 }
 
-console.log(lastVisit(users[1]))
+// console.log(lastVisit(users[1]))
