@@ -1,25 +1,25 @@
-const obj = {
-    name: 'Nikita',
-    age: 22,
-    job: 'Frontend'
-}
+// const obj = {
+//     name: 'Nikita',
+//     age: 22,
+//     job: 'Frontend'
+// }
 
-const entries = [
-    ['name', 'Nikita'],
-    ['age', 22],
-    ['job', 'Frontend']
-]
+// const entries = [
+//     ['name', 'Nikita'],
+//     ['age', 22],
+//     ['job', 'Frontend']
+// ]
 
 // console.log(Object.entries(obj))
 // console.log(Object.fromEntries(entries))
 
-const map = new Map(entries)
+// const map = new Map(entries)
 
-// console.log(map.get('job'))
+//  console.log(map.get('job'))
 
-map.set('newField', 55)
-    .set(obj, 'Value Of Object')
-    .set(NaN, 'NaN &&&')
+// map.set('newField', 55)
+//     .set(obj, 'Value Of Object')
+//     .set(NaN, 'NaN &&&')
 
 // console.log(map.get(NaN))
 
@@ -52,21 +52,21 @@ map.set('newField', 55)
 
 /*---------------*/
 
-const users = [
-    { name: 'Nikita' },
-    { name: 'Alex' },
-    { name: 'Oleg' }
-]
+// const users = [
+//     { name: 'Nikita' },
+//     { name: 'Alex' },
+//     { name: 'Oleg' }
+// ]
 
-const visits = new Map()
+// const visits = new Map()
 
-visits
-    .set(users[0], new Date())
-    .set(users[1], new Date(new Date().getTime() + 1000 * 60))
-    .set(users[2], new Date(new Date().getTime() + 5000 * 60))
+// visits
+//     .set(users[0], new Date())
+//     .set(users[1], new Date(new Date().getTime() + 1000 * 60))
+//     .set(users[2], new Date(new Date().getTime() + 5000 * 60))
 
-function lastVisit(user) {
-    return visits.get(user)
-}
+// function lastVisit(user) {
+//     return visits.get(user)
+// }
 
 // console.log(lastVisit(users[1]))

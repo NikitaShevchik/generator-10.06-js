@@ -1,5 +1,5 @@
 
-const set = new Set([1, 2, 3, 3, 3, 4, 5, 5, 6])
+// const set = new Set([1, 2, 3, 3, 3, 4, 5, 5, 6])
 
 // set.add(10).add(20).add(30).add(20)
 
@@ -22,7 +22,7 @@ const set = new Set([1, 2, 3, 3, 3, 4, 5, 5, 6])
 //     console.log(keys, value);
 // }
 
-//set.add(7)  А не set.set(7) 
+//set.add(7)  А не set.set(7)
 
 // console.log(set.entries())
 
@@ -33,8 +33,8 @@ const set = new Set([1, 2, 3, 3, 3, 4, 5, 5, 6])
 
 /*---------------*/
 
-function uniqValues(array) {
-    return Array.from(new Set(array)) // return [new Set(array)]
-}
+// function uniqValues(array) {
+//     return Array.from(new Set(array)) // return [new Set(array)]
+// }
 
-console.log(uniqValues([1, 1, 2, 2, 4, 4, 4, 4, 4, 5, 6, 6, 6]))
+// console.log(uniqValues([1, 1, 2, 2, 4, 4, 4, 4, 4, 5, 6, 6, 6]))
