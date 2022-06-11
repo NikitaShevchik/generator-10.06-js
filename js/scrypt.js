@@ -60,14 +60,14 @@
 
 
 
-const people = [
-    { name: 'Никита', age: 22, budget: 28000 },
-    { name: 'Иван', age: 30, budget: 150000 },
-    { name: 'Владислав', age: 15, budget: 7000 },
-    { name: 'Александр', age: 54, budget: 1500 },
-    { name: 'Владимир', age: 17, budget: 16800 },
-    { name: 'Олег', age: 42, budget: 7600 },
-]
+// const people = [
+//     { name: 'Никита', age: 22, budget: 28000 },
+//     { name: 'Иван', age: 30, budget: 150000 },
+//     { name: 'Владислав', age: 15, budget: 7000 },
+//     { name: 'Александр', age: 54, budget: 1500 },
+//     { name: 'Владимир', age: 17, budget: 16800 },
+//     { name: 'Олег', age: 42, budget: 7600 },
+// ]
 
 // for (let i = 0; i < people.length; i++){
 //     console.log(people[i])
@@ -131,14 +131,18 @@ const people = [
 
 
 /*---------------*/
-const amount = people
-    .filter(person => person.budget > 10000)
-    .map(person => {
-        return {
-            info: `${person.name} богатое гавно`,
-            budget: person.budget
-        }
-    })
-    .reduce((total, person) => total + person.budget, 0)
+// const amount = people
+//     .filter(person => person.budget > 10000)
+//     .map(person => {
+//         return {
+//             info: `${person.name} богатое гавно`,
+//             budget: person.budget
+//         }
+//     })
+//     .reduce((total, person) => total + person.budget, 0)
 
-console.log(amount)
+// console.log(amount)
+
+
+
+/*--------ДОПОЛНИТЕЛЬНЫЕ СТРУКТУРЫ ДАННЫХ-------*/
